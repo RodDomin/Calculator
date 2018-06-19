@@ -41,8 +41,8 @@ public class Calculator extends JFrame implements ActionListener{
 	public void editarJanela() {
 		
 		/*
-		 * -O mÈtodo editarJanela basicamente fica responsalvel por adicionar todos os botoıes do app
-		 *  controlar as caracteristicas de capa bot„o e da janela. 
+		 * -O m√©todo editarJanela basicamente fica responsalvel por adicionar todos os boto√µes do app
+		 *  controlar as caracteristicas de capa bot√£o e da janela. 
 		 * 
 		*/
 		
@@ -749,7 +749,6 @@ public class Calculator extends JFrame implements ActionListener{
 
 
 		setTitle("Calculadora(0.2.5)");
-		setIconImage(Toolkit.getDefaultToolkit().getImage(Calculator.class.getResource("/Base/icon.png")));
 		setSize(300, 450);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocationRelativeTo(null);
